@@ -15,8 +15,20 @@
 4. Rollback de la aplicación. 
 
 
-##Acceder al Cluster de Openshift
-1. 
+## Acceder al Cluster de Openshift
+1. Accede a tu cuenta IBM Cloud.
+2. Desde la barra lateral dirigete a **Openshift > Clusters**
+ <img width="1439" alt="Captura de pantalla 2022-03-23 a las 16 13 53" src="https://user-images.githubusercontent.com/102157561/159732439-aa400fba-ec93-4510-ad64-088bda57644d.png">
+3. Selecciona el Cluster asignado y te redirigirá a una consola como la siguiente: 
+<img width="1432" alt="Captura de pantalla 2022-03-23 a las 16 16 24" src="https://user-images.githubusercontent.com/102157561/159733000-1573a6d5-60f9-426f-87ee-20e996fcba4f.png">
+4. Selecciona en la esquina superior derecha **Openshift Web Console**
+5. En la esquina superior derecha pincha en **IAM#<user_email>** y posteriormente en **Copy Login Command**
+<img width="1438" alt="Captura de pantalla 2022-03-23 a las 16 18 37" src="https://user-images.githubusercontent.com/102157561/159733503-01753d58-ad79-499d-9a92-fdc36febdfef.png">
+
+Copia el comando que se muestra debajo de **Log in with this token**
+6. En la consola de IBM Cloud, accede a IBM Cloud Shell desde la esquina superior derecha: 
+<img width="1439" alt="Captura de pantalla 2022-03-23 a las 16 21 15" src="https://user-images.githubusercontent.com/102157561/159734050-85a9c484-b22e-45b0-ae8d-c7f6126ed8fb.png">
+7. Ejecuta el comando copiado en el paso 5. 
 
 ## Cración de una aplicación a partir de una imagen Docker
 
