@@ -46,7 +46,7 @@ Copia el comando que se muestra debajo de **Log in with this token**
 `oc get pods`
 <img width="498" alt="Captura de pantalla 2022-03-23 a las 16 44 52" src="https://user-images.githubusercontent.com/102157561/159739237-ba9dffc8-7a41-47cc-a8e2-2898906e8203.png">
 
-4. Para exponer el despliegue, se hará uso del puerto 3000: `oc create deployment myguestbook --image=ibmcom/guestbook:v1`
+4. Para exponer el despliegue, se hará uso del puerto 3000: ` oc expose deployment myguestbook --type="NodePort" --port=3000`
 <img width="688" alt="Captura de pantalla 2022-03-23 a las 16 45 28" src="https://user-images.githubusercontent.com/102157561/159739355-ebbfe874-cd38-4b6f-8b67-95a385217861.png">
 
 5. Para ver el servicio que acabamos de exponer, utiliza el siguiente comando `oc get service`
